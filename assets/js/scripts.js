@@ -1,7 +1,8 @@
 // 🔧 CONFIGURAÇÕES — personalize antes de publicar
-const WHATSAPP_NUMBER = '55XXXXXXXXXXX'; // Coloque o número com DDI+DDD, ex.: '5551999999999'
-const ORIGEM = 'LP Atlântida Sul Ref 1550';
+const WHATSAPP_NUMBER = '5551998440879'; // Coloque o número com DDI+DDD, ex.: '5551999999999'
+const ORIGEM = 'LP Atlântida Sul Ref A113';
 const PRECO = 'R$ 372.000';
+const PRECOPOR = 'R$ 349.000';
 
 // Mensagem base enviada pelo WhatsApp
 function getWaMessage() {
@@ -12,7 +13,7 @@ function getWaMessage() {
 			.filter(Boolean)
 			.join(' | ');
 
-	const msg = `Olá! Tenho interesse na casa Ref. 1550 em Atlântida Sul.\n\nPoderia me enviar mais detalhes e agendar uma visita?\n\nPreço anunciado: ${PRECO}\nOrigem: ${ORIGEM}${utm ? `\nUTM: ${utm}` : ''}\nPágina: ${url}`;
+	const msg = `Olá! Tenho interesse na casa Ref. A113 em Atlântida Sul.\n\nPoderia me enviar mais detalhes e agendar uma visita?\n\nPreço anunciado: de ${PRECO} por ${PRECOPOR}\nOrigem: ${ORIGEM}${utm ? `\nUTM: ${utm}` : ''}\nPágina: ${url}`;
 	return encodeURIComponent(msg);
 }
 
