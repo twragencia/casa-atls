@@ -13,7 +13,7 @@ function getWaMessage() {
 			.filter(Boolean)
 			.join(' | ');
 
-	const msg = `Olá! Tenho interesse na casa Ref. A113 em Atlântida Sul.\n\nPoderia me enviar mais detalhes e agendar uma visita?\n\nPreço anunciado: de ${PRECO} por ${PRECOPOR}\nOrigem: ${ORIGEM}${utm ? `\nUTM: ${utm}` : ''}\nPágina: ${url}`;
+	const msg = `Olá! Tenho interesse na casa Ref. A113 em Atlântida Sul.\n\nPoderia me enviar mais detalhes e agendar uma visita?\n\nPreço anunciado: de ${PRECO}\nOrigem: ${ORIGEM}${utm ? `\nUTM: ${utm}` : ''}\nPágina: ${url}`;
 	return encodeURIComponent(msg);
 }
 
