@@ -1,8 +1,7 @@
 // 🔧 CONFIGURAÇÕES — personalize antes de publicar
 const WHATSAPP_NUMBER = '5551998440879'; // Coloque o número com DDI+DDD, ex.: '5551999999999'
 const ORIGEM = 'LP Atlântida Sul Ref A113';
-const PRECO = 'R$ 372.000';
-const PRECOPOR = 'R$ 349.000';
+const PRECO = 'R$ 369.000';
 
 // Mensagem base enviada pelo WhatsApp
 function getWaMessage() {
